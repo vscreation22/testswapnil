@@ -1,0 +1,38 @@
+package testing;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+
+public class MouseMovement {
+
+	public static void main(String[] args) throws InterruptedException {
+		
+		 System.setProperty("webdriver.chrome.driver","D:\\chromedriver\\chromedriver.exe");
+		   WebDriver driver = new ChromeDriver();
+		   driver.manage().window().maximize();
+		   driver.manage().deleteAllCookies();
+			driver.manage().timeouts().pageLoadTimeout(50,TimeUnit.SECONDS);
+			driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
+			
+			driver.get("https://www.flipkart.com");
+			
+			Actions action = new Actions(driver);
+			
+			Thread.sleep(2000);
+			action.moveToElement(driver.findElement(By.xpath("//span[@class='_1QZ6fC _3Lgyp8'][1]")))
+			.moveToElement(driver.findElement(By.xpath("//span[contains(@class, '_1QZ6fC _3Lgyp8') and text()='TVs & Appliances']")))
+			.moveToElement(driver.findElement(By.xpath("//span[contains(@class, '_1QZ6fC _3Lgyp8') and text()='Men']"))).build().perform();
+			
+			Thread.sleep(3000);
+			driver.findElement(By.xpath("//a[@title='T-Shirts']")).click();
+			Thread.sleep(2000);
+			
+			driver.close();
+
+	}
+
+}

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="lib" path="D:/ucumber-dps/client-combined-3.141.59.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/ucumber-dps/client-combined-3.141.59-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/ucumber-dps/commons-beanutils-1.7.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/ucumber-dps/commons-beanutils-core-1.8.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/ucumber-dps/commons-collections-3.2.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/ucumber-dps/commons-configuration-1.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/ucumber-dps/commons-digester-1.8.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/ucumber-dps/commons-io-2.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/ucumber-dps/commons-lang-2.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/ucumber-dps/commons-lang3-3.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/ucumber-dps/commons-logging-1.1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/ucumber-dps/cucumber-core-1.2.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/ucumber-dps/cucumber-java-1.2.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/ucumber-dps/cucumber-junit-1.2.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/ucumber-dps/cucumber-jvm-deps-1.0.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/ucumber-dps/cucumber-reporting-3.14.0.jar"/>
+	<classpathentry kind="lib" path="D:/selenium-server-standalone-3.141.59.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry exported="true" kind="lib" path="D:/ucumber-dps/gherkin-2.12.2.jar"/>
+	<classpathentry kind="lib" path="D:/Testing files/ucumber-dps/client-combined-3.141.59.jar"/>
+	<classpathentry kind="lib" path="D:/Testing files/ucumber-dps/client-combined-3.141.59-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Testing files/ucumber-dps/commons-beanutils-1.7.0.jar"/>
+	<classpathentry kind="lib" path="D:/Testing files/ucumber-dps/commons-beanutils-core-1.8.0.jar"/>
+	<classpathentry kind="lib" path="D:/Testing files/ucumber-dps/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="D:/Testing files/ucumber-dps/commons-configuration-1.6.jar"/>
+	<classpathentry kind="lib" path="D:/Testing files/ucumber-dps/commons-digester-1.8.jar"/>
+	<classpathentry kind="lib" path="D:/Testing files/ucumber-dps/commons-io-2.5.jar"/>
+	<classpathentry kind="lib" path="D:/Testing files/ucumber-dps/commons-lang-2.4.jar"/>
+	<classpathentry kind="lib" path="D:/Testing files/ucumber-dps/commons-lang3-3.6.jar"/>
+	<classpathentry kind="lib" path="D:/Testing files/ucumber-dps/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="D:/Testing files/ucumber-dps/cucumber-core-1.2.5.jar"/>
+	<classpathentry kind="lib" path="D:/Testing files/ucumber-dps/cucumber-java-1.2.5.jar"/>
+	<classpathentry kind="lib" path="D:/Testing files/ucumber-dps/cucumber-junit-1.2.5.jar"/>
+	<classpathentry kind="lib" path="D:/Testing files/ucumber-dps/cucumber-jvm-deps-1.0.5.jar"/>
+	<classpathentry kind="lib" path="D:/Testing files/ucumber-dps/cucumber-reporting-3.14.0.jar"/>
+	<classpathentry kind="lib" path="D:/Testing files/ucumber-dps/gherkin-2.12.2.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
